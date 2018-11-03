@@ -22,7 +22,7 @@ var upgrader = websocket.Upgrader{
 	},
 }
 
-// Define our message object
+//Message Define our message object
 type Message struct {
 	Email    string `json:"email"`
 	Username string `json:"username"`
